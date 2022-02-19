@@ -1,1 +1,75 @@
-/* Estilos de la página */
+:root {
+  --color-primario: #272727;
+  --color-resaltar: #fed766;
+  --color-secundario: #009fb7;
+  --color-oscuro: #696773;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  max-width: 950px;
+  margin: auto;
+  width: 90%;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 55px;
+  text-align: center;
+  color: var(--color-primario);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.descripcion {
+  font-weight: 300;
+  color: var(--color-oscuro);
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+.language-text {
+  margin-left: 3%;
+  padding: 5px;
+  display: inline-block;
+  width: 85px;
+}
+
+.programming-languages {
+    margin-top: 0;
+}
+
+.programming-languages h5 {
+  font-size: 18px;
+  font-weight: 400;
+  display: inline;
+}
+
+.rating {
+  height: 20px;
+  width: 120px;
+  display: inline;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 3px;
+  background-color: var(--color-secundario);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.transparente {
+  background-color: #eaeaea;
+}
+
+img {
+    width: 420px;
+}
