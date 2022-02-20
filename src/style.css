@@ -12,22 +12,28 @@ body {
   width: 90%;
 }
 
+hr {
+  color: var(--color-oscuro);
+}
+
 h1 {
   font-weight: bolder;
-  font-size: 55px;
+  font-size: 57px;
   text-align: center;
   color: var(--color-primario);
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 31px;
   font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .descripcion {
   font-weight: 300;
   color: var(--color-oscuro);
-  font-size: 18px;
+  font-size: 25px;
 }
 
 ul {
@@ -42,11 +48,12 @@ ul {
 }
 
 .programming-languages {
-    margin-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .programming-languages h5 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   display: inline;
 }
@@ -61,7 +68,7 @@ ul {
   height: 8px;
   width: 8px;
   margin: 0 3px;
-  background-color: var(--color-secundario);
+  background-color: var(--color-resaltar);
   border-radius: 50%;
   display: inline-block;
 }
@@ -70,6 +77,77 @@ ul {
   background-color: #eaeaea;
 }
 
+h3 {
+  margin-left: 7%;
+  padding: 5px;
+  color: var(--color-secundario);
+}
+
+.projects h3 {
+  font-size: 25px;
+}
+
 img {
-    width: 420px;
+  width: 308px;
+  margin-bottom: 25px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: var(--color-secundario);
+}
+
+a:visited {
+  color: var(--color-secundario);
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: var(--color-resaltar);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.pagina-clima p {
+  margin-left: 27%;
+  margin-top: -20px;
+  font-size: 11px;
+}
+
+.hobbies-lista {
+  margin-left: 7%;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.hobbies-lista li {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+table {
+  margin-left: 7%;
+  padding: 5px;
+  width: 70%;
+  text-align: left;
+}
+
+table th {
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 11px;
+  margin-top: 20px;
 }
