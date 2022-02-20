@@ -30,7 +30,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-.descripcion {
+.descripcion-personal {
   font-weight: 300;
   color: var(--color-oscuro);
   font-size: 25px;
@@ -77,9 +77,11 @@ ul {
   background-color: #eaeaea;
 }
 
-h3 {
+h3, .descripion-proyecto {
   margin-left: 7%;
-  padding: 5px;
+}
+
+h3, .fecha {
   color: var(--color-secundario);
 }
 
@@ -118,10 +120,10 @@ a:hover {
   width: 50%;
 }
 
-.pagina-clima p {
+.pagina-clima .link-pagina {
   margin-left: 27%;
   margin-top: -20px;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .hobbies-lista {
